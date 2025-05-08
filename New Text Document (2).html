@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dreamy Craftique Catalog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Quicksand', sans-serif;
+    }
+    body {
+      background-color: #fff9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #ffdde1;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #d63384;
+    }
+    .about, .products, .contact {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .about h2, .products h2, .contact h2 {
+      font-size: 1.8rem;
+      color: #c2185b;
+      margin-bottom: 20px;
+    }
+    .about p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .product {
+      background-color: #fff;
+      border: 1px solid #f8bbd0;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+    .product:hover {
+      transform: scale(1.03);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .product h3 {
+      color: #d63384;
+      margin-top: 10px;
+    }
+    .product p {
+      color: #777;
+    }
+    .order-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #ff4d6d;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background-color 0.3s ease;
+    }
+    .order-btn:hover {
+      background-color: #e03160;
+    }
+    footer {
+      background-color: #fce4ec;
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dreamy Craftique</h1>
+    <p>Handmade Gifts | Explosion Boxes | 3D Frames</p>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Welcome to Dreamy Craftique! We create heartfelt, handmade gifts that bring joy to every occasion — from personalized explosion boxes to unique 3D frame art. Perfect for birthdays, anniversaries, and surprises. 💝</p>
+  </section>
+
+  <section class="products">
+    <h2>Our Creations</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200.png?text=Explosion+Box" alt="Explosion Box" />
+        <h3>Explosion Box</h3>
+        <p>RM60 - Customizable with photos & messages</p>
+        <a class="order-btn" href="https://wa.me/60123456789?text=Hi%2C+I+want+to+order+an+Explosion+Box">Order via WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200.png?text=3D+Miniature+Frame" alt="3D Frame" />
+        <h3>3D Miniature Frame</h3>
+        <p>RM60 - Includes customer photo and mini art</p>
+        <a class="order-btn" href="https://wa.me/60123456789?text=Hi%2C+I+want+to+order+a+3D+Mini+Frame">Order via WhatsApp</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200.png?text=Bouquets+%28Coming+Soon%29" alt="Bouquets Coming Soon" />
+        <h3>Handmade Bouquets</h3>
+        <p>Coming soon — stay tuned for our creative blooms!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <p>Message us on <a href="https://wa.me/60123456789" target="_blank">WhatsApp</a> or follow us on <a href="https://instagram.com/dreamycraftique" target="_blank">Instagram</a> for updates and more designs!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dreamy Craftique. All rights reserved.</p>
+  </footer>
+</body>
+</html>
